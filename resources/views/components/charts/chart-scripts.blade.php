@@ -1,4 +1,4 @@
-<!-- Charts -->
+<!-- Chart scripts -->
 @push('scripts')
     <link
     rel="stylesheet"

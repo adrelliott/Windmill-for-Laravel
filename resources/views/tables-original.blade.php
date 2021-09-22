@@ -7,77 +7,8 @@
             <h4
               class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300"
             >
-              Table
+              Table with avatars
             </h4>
-
-            <x-tables.outline pagination=true>
-                <x-tables.thead>
-                  <x-tables.th heading="Client" />
-                  <x-tables.th heading="Amount" />
-                  <x-tables.th heading="Status" />
-                  <x-tables.th heading="Date" />
-                  <x-tables.th heading="Actions" />
-                </x-tables.thead>
-                <x-tables.tbody>
-                  <x-tables.tr>
-                    <x-tables.td>
-                      col 1
-                    </x-tables.td>
-                    <x-tables.td>
-                      col 2
-                    </x-tables.td>
-                    <x-tables.td>
-                      col 3
-                    </x-tables.td>
-                    <x-tables.td>
-                      col 4
-                    </x-tables.td>
-                    <x-tables.td>
-                      <x-tables.actions />
-                    </x-tables.td>
-                  </x-tables.tr>
-
-                  <x-tables.tr>
-                    <x-tables.td>
-                      col 1
-                    </x-tables.td>
-                    <x-tables.td>
-                      col 2
-                    </x-tables.td>
-                    <x-tables.td>
-                      col 3
-                    </x-tables.td>
-                    <x-tables.td>
-                      col 4
-                    </x-tables.td>
-                    <x-tables.td>
-                      <x-tables.actions />
-                    </x-tables.td>
-                  </x-tables.tr>
-
-                  <x-tables.tr>
-                    <x-tables.td>
-                      col 1
-                    </x-tables.td>
-                    <x-tables.td>
-                      col 2
-                    </x-tables.td>
-                    <x-tables.td>
-                      col 3
-                    </x-tables.td>
-                    <x-tables.td>
-                      col 4
-                    </x-tables.td>
-                    <x-tables.td>
-                      <x-tables.actions />
-                    </x-tables.td>
-                  </x-tables.tr>
-                </x-tables.tbody>
-              </x-tables.outline>
-
-
-
-
             <div class="w-full mb-8 overflow-hidden rounded-lg shadow-xs">
               <div class="w-full overflow-x-auto">
                 <table class="w-full whitespace-no-wrap">
@@ -85,13 +16,10 @@
                     <tr
                       class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800"
                     >
-                    <div class="flex items-start">
                       <th class="px-4 py-3">Client</th>
                       <th class="px-4 py-3">Amount</th>
                       <th class="px-4 py-3">Status</th>
                       <th class="px-4 py-3">Date</th>
-                    </div>
-
                     </tr>
                   </thead>
                   <tbody

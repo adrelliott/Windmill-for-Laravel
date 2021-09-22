@@ -1,6 +1,6 @@
 <!-- Mobile hamburger -->
 <button
-class="p-1 -ml-1 mr-5 rounded-md md:hidden focus:outline-none focus:shadow-outline-purple"
+class="p-1 -ml-1 mr-5 rounded-md lg:hidden focus:outline-none focus:shadow-outline-purple"
 @click="toggleSideMenu"
 aria-label="Menu"
 >
